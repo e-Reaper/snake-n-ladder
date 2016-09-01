@@ -1,0 +1,107 @@
+body {
+	background:;
+	margin:0px;
+	font-family: 'Handlee';
+	background-attachment: fixed;
+	background-image: url("../img/purty_wood_@2X.png");
+}
+
+header {
+	width:100%;
+	background: white;
+	margin:0px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+.header {
+	width: auto;
+	margin: 0 auto;
+	list-style-type: none;
+}
+.header li {
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+}
+.title {
+	color: #3EAB25;
+	font-size: 30px;
+	margin: 0px;
+}
+
+.dashboard section {
+	display: inline-block;
+	vertical-align: top;
+}
+.dice-board {
+	width: 50%;
+	padding-left:50px;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	background: green;
+	border: none;
+	border-radius: 10px
+}
+.avatar-item , .active-player{
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin:10px;
+}
+.selected-avatar , .active-player{
+	box-shadow: 1px 10px 10px 1px black;
+}
+.avatar-player{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.active-player{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;	
+}
+.button-container{
+	width: 100%;
+	margin: 10px 100px;
+}
+.button-container button{
+	display: block;
+	margin: 5px;
+	color: white;
+	font-size: 12px;
+    font-weight: bold;
+}
+#end-game-button , #reset-avatar-button{
+	background: #DE5629;
+}
+#start-game-button, #roll-dice{
+	background: #58AB29;
+}
+#player-list, #avatar-chamber, .button-container {
+	margin: 10px auto;
+}
+.dummy-dice {
+	display: block;
+	margin: 0 ;
+	height:100px;
+	width: 100px;
+	border-radius: 20px;
+}
+.hidden {
+	display:none !important;
+}
+#user-message {
+	font-size: 20px;
+	font-family: verdana;
+	color: red;
+}

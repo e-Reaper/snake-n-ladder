@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/basic.css">
+		<script type="text/javascript" src="js/basic.js"></script>
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<ul class="header">
+				<li>
+					<span class="title"> SNAKE &amp; LADDER </span>
+				</li>
+			</ul>
+		</header>
+		<!-- main body contianing the avatars and boards -->
+		<article class = "dashboard">
+			<!-- board of the game -->
+			<section class="game-board">
+				<canvas id="snake-and-ladder-board" width="600" height="600"></canvas>
+			</section>
+			<!-- sidebar for options to select avatar and start game -->
+			<section class="dice-board">
+				<div class="" id="avatar-chamber">
+				</div>
+				<div class="" id="player-list">
+				</div>
+				<div class="dice-value" id="dice-roll-value">
+					<img src="img/dice-6.png" id="dice-dummy" class="dummy-dice">
+				</div>
+				<div class="button-container">	
+					<button id = "start-game-button"> START GAME </button>
+					<button id = "reset-avatar-button"> RESET </button>
+					<button id = "roll-dice" class="hidden"> ROLL THE DICE </button>
+					<button id = "end-game-button" class="hidden"> END GAME </button>
+				</div>
+				<div id="user-message"></div>
+				
+			</section>
+		</article>
+		<img class="hidden" id="game-board-image" src="img/board.jpg" width="400" height="400">
+
+	</body>
+</html>
